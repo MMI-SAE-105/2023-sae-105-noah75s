@@ -1,4 +1,5 @@
 .menu-btn{
+    z-index: 2;
     background: none; 
     border: none; 
     justify-content: space-between

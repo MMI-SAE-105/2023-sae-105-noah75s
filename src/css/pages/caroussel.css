@@ -1,0 +1,17 @@
+.carrousel_parent-ecrans {
+    display: flex;
+    width: 100%;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+    margin: 0%; 
+    }
+  .carrousel_ecran {
+    flex: none;
+    width: 100%;
+    scroll-snap-align: start;
+    margin: 0%; 
+    }
+  .carrousel_ecran figure {
+    margin: 0%; 
+    }

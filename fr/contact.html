@@ -1,0 +1,53 @@
+<!DOCTYPE html> 
+<html lang="fr" x-data="{menuIsOpen: false}"> 
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Retour vers le présent</title>
+    <link rel="stylesheet" href="./src/css/pages/style.css"/>
+    <script defer src="https://unpkg.com/alpinejs"></script>
+  </head>
+  <body>
+    <!-- https://emmet.io/ -->
+
+    <header>
+
+      <head>
+        
+        
+        </head>
+      
+
+      
+<div>
+      <h1>Exposition Kalinka</h1>
+    </div>
+      <nav id="mainNav" x-show="menuIsOpen">
+        </nav>
+    </header>
+
+     <!-- h2>lorem2^p>lorem -->
+     <br><h2 p class="texte_titre">Me contacter</h2><br> 
+     
+     
+     
+<div class="container">
+
+    <form action="/action_page.php">
+      <label for="fname">Nom & prénom</label>
+      <input type="text" id="fname" name="firstname" placeholder="Votre nom et prénom">
+  
+      <label for="sujet">Sujet</label>
+      <input type="text" id="sujet" name="sujet" placeholder="L'objet de votre message">
+  
+      <label for="emailAddress">Email</label>
+      <input id="emailAddress" type="email" name="email" placeholder="Votre email">
+  
+  
+      <label for="subject">Message</label>
+      <textarea id="subject" name="subject" placeholder="Votre message" style="height:200px"></textarea>
+  
+      <input type="submit" value="Envoyer">
+    </form>
+  </div>

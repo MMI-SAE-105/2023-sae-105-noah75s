@@ -6,3 +6,9 @@ body{
 }
 
 a{color: white;}
+
+h1{
+    text-align: center;
+        margin-top: 3px;
+        padding-bottom: 9px;
+}

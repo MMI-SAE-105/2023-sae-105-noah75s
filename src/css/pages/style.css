@@ -1,0 +1,8 @@
+@import url(./vendors/normalize.css);
+
+body{
+    background-color: #6d0115;
+    color: white;
+}
+
+a{color: white;}

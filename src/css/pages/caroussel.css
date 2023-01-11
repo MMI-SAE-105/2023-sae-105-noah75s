@@ -5,20 +5,25 @@
     scroll-behavior: smooth;
     scroll-snap-type: x mandatory;
     margin: 0%; 
+    padding-right: 60px;
     }
   .carrousel_ecran {
     flex: none;
     width: 100%;
     scroll-snap-align: start;
     margin: 0%; 
+    padding-right: 60px;
     }
   .carrousel_ecran figure {
     margin: 0%; 
+    padding-right: 60px;
     }
 
 .carrousel{
   margin-top: 460px;
-  position:relative
+  position:relative;
+  display:block;
+  padding-right:60px;
 }
 
 .imgcarrousel{

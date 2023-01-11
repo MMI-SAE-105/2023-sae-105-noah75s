@@ -75,4 +75,14 @@ p{
     left: 30px;
     top: 290px;
     padding: 5px;
+    border-radius: 5px;
   }
+
+.imagearticle{
+    
+}
+
+.texte_titrebas{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}

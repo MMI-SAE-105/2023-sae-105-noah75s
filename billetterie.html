@@ -26,7 +26,7 @@
 
     <ul class="menu__box">
         <li><a class="menu__item" href="index.html">ACCUEIL</a></li>
-        <li><a class="menu__item" href="billetterie.html">INFOS DE L’EXPOSITION</a></li>
+        <li><a class="menu__item" href="billetterie.html">BILLETTERIE</a></li>
               <li><a class="menu__item" href="mouvement.html">LE REALISME SOCIAL SOVIETIQUE</a></li>
               <li><a class="menu__item" href="ivan.html">IVAN VLADIMIROV</a></li>
               <li><a class="menu__item" href="igor.html">IGOR GRABAR</a></li>
@@ -44,19 +44,25 @@
   
 </div>
 
-<h1>BILLETTERIE</h1>
+<h1 class="texte_titre">BILLETTERIE</h1> 
 
-<h3>Informations sur l'exposition</h3>
-<p>Dates de l’exposition : du 13 avril au 23 juin 2021</p>  
-<p>Lieu de l’exposition : Fondation Cartier, 261 Bd Raspail, 75014 Paris</p> 
-<p>Horaires d’ouverture : Tous les jours de 11h à 20h, sauf le lundi. Nocturne le mardi, jusqu'à 22h. La fermeture des salles débute à 19h45 (21h45 les mardis).</p> 
-<p>Tarifs :</p>
-<p>Plein tarif : 11€</p>
-<p>Tarif réduit : 7,50€</p>
-<p>Réduction 13 - 25 ans : 5€</p>
-<p>Fondation Cartier Pass : 18€ - 50€</p>
+<h3 class="texte_titre">Informations sur l'exposition</h3>
+<p class="texte_titre">Dates de l’exposition : du 13 avril au 23 juin 2021</p>  
+<p class="texte_titre">Lieu de l’exposition : Fondation Cartier, 261 Bd Raspail, 75014 Paris</p> 
+<p class="texte_titre">Horaires d’ouverture : Tous les jours de 11h à 20h, sauf le lundi. Nocturne le mardi, jusqu'à 22h. La fermeture des salles débute à 19h45 (21h45 les mardis).</p> 
+<p class="texte_titre">Tarifs :</p>
+<p class="texte_titre">Plein tarif : 11€</p>
+<p class="texte_titre">Tarif réduit : 7,50€</p>
+<p class="texte_titre">Réduction 13 - 25 ans : 5€</p>
+<p class="texte_titre">Fondation Cartier Pass : 18€ - 50€</p>
 
-<button>BILLETTERIE</button>
+<div class="accordeon">
+  <section x-data="{open:false}">
+    <button @click="open = !open" class="btnreserver">Réserver</button>
+    <p x-show="open==true" class="texteaccordeon">
+      La billetterie n'est pas encore disponible
+    </p>
+  </div>
 
 <footer class="footer">
     <div class="textblanc">

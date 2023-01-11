@@ -32,18 +32,20 @@ input[type=text], textarea, input[type=email] {
   .container {
     /* Ajouter box-sizing */
     box-sizing : border-box;
-    border-radius:5px;
-    background-color:#000000;
+    border-radius:2px;
+    background-color:#6D0115;
     padding:20px;
     width: 100%;
     font-family: 'Montserrat', sans-serif;
+    margin-left: 30px;
+    top:650px;
 
     /* redéfinition 400 + 2*20 */
     max-width: 440px;
     margin:0 auto;
   }
   h1  {
-    color: #000000;
+    color: #6D0115;
     width: 100%;
     font-family: 'Montserrat', sans-serif;
   }

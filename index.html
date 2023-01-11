@@ -8,40 +8,55 @@
     <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
     <title>Exposition Kalinka</title>
   </head>
-
+<body>
   <header>
-        <img src="/public/img/20230109/menu (1).svg" alt="icone de menu" class="menu-btn">
-
+    
+         
 
 <h1 class="titre">Exposition Kalinka</h1>
 <nav id="mainNav" x-show="menuIsOpen">
 </nav>
 </header>
 
-<nav>
-    <ul>
-        <li><a href="infosexpo.html">Infos de l'exposition</a></li>
-        <li><a href="mouvement.html">Le réalisme social soviétique</a></li>
-        <li><a href="ivan.html">Ivan Vladimirov</a></li>
-        <li><a href="igor.html">Igor Grabar</a></li>
-        <li><a href="constantin.html">Constantin Youon</a></li>
-        <li><a href="sunmu.html">Sun Mu</a></li>
-        <li><a href="frise.html">Frise</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="billetterie.html">Billetterie</a></li>
-    </ul>
+<div class="hamburger-menu">
+    <input id="menu__toggle" type="checkbox" />
+    <label class="menu__btn" for="menu__toggle">
+      <span></span>
+    </label>
 
-    <h2>PRENEZ PLACE À</h2>
-    <h2>L'EXPOSITION KALINKA</h2>
+    <ul class="menu__box">
+      <li><a class="menu__item" href="#">INFOS DE L’EXPOSITION</a></li>
+			<li><a class="menu__item" href="#">LE REALISME SOCIAL SOVIETIQUE</a></li>
+			<li><a class="menu__item" href="#">IVAN VLADIMIROV</a></li>
+			<li><a class="menu__item" href="#">IGOR GRABAR</a></li>
+			<li><a class="menu__item" href="#">CONSTANTIN YOUON</a></li>
+            <li><a class="menu__item" href="#">SUN MU</a></li>
+			<li><a class="menu__item" href="#">FRISE</a></li>
+			<li><a class="menu__item" href="#">CONTACT</a></li>
+			<li><a class="menu__item" href="#">BILLETTERIE</a></li>
+    </ul>
+  </div>
+</body>
+    </ul>
+</div>
+<div class="content">
+  
+</div>
+
+
+    <h2 class="texte_titre">PRENEZ PLACE À</h2>
+    <h2 class="texte_titrebas">L'EXPOSITION KALINKA</h2>
     
     <p>Cette exposition aura pour but de présenter des oeuvres du courant réaliste socialiste soviétique.</p>
 
+        
     
 
-    <img src="/public/img/20230109/image 1.webp" alt="images">
+    <img src="/public/img/20230109/image 1.webp" alt="images" class="image">
 
-    <h2>Qu'est-ce que le réalisme socialiste soviétique ?</h2>
-    <p>C’est une doctrine élaborée en Union Soviétique par notamment Staline, Nikolaï Boukarine, Maxime Gorki et Andreï Jdanov entre 1932 et 1934 et qui est devenue la doctrine officielle de l'art dans les pays du bloc communiste.</p>
+    <h2 class="texte_titre">Qu'est-ce que le réalisme socialiste soviétique ?</h2>
+   
+    <div id="rectangle" p class="texte_titrebas" > <br> <br> <br> <br> <br> <br>C’est une doctrine élaborée en Union Soviétique par notamment Staline, Nikolaï Boukarine, Maxime Gorki et Andreï Jdanov entre 1932 et 1934 et qui est devenue la doctrine officielle de l'art dans les pays du bloc communiste.</p></div>
 
     <div class="carrousel" x-data="{}">
         <div class="carrousel_parent-ecrans">
@@ -72,7 +87,11 @@
         </div>
     </div>
 
-<h3>Informations sur l'exposition</h3> 
+
+        
+      
+
+<h3 class="texte_titre">Informations sur l'exposition</h3> 
 <p>Dates de l’exposition : du 13 avril au 23 juin 2021</p>  
 <p>Lieu de l’exposition : Fondation Cartier, 261 Bd Raspail, 75014 Paris</p> 
 <p>Horaires d’ouverture : Tous les jours de 11h à 20h, sauf le lundi. Nocturne le mardi, jusqu'à 22h. La fermeture des salles débute à 19h45 (21h45 les mardis).</p> 
@@ -99,7 +118,7 @@
      </div>
      
      <div class="insta">
-<a href="https://www.instagram.com/noah13s/"> <img src="public/img/20230109/menu (1).svg " alt="IconInstragram"></a></div>
+<a href="https://www.instagram.com/noah13s/"> <img src="public/img/20230109/instagram 1.svg" alt="IconInstragram"></a></div>
 
     
      <br> <br>

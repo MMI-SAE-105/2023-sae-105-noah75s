@@ -5,49 +5,92 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Retour vers le présent</title>
-    <link rel="stylesheet" href="./src/css/pages/style.css"/>
-    <script defer src="https://unpkg.com/alpinejs"></script>
+    <link rel="stylesheet" href="/src/css/pages/style.css">
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
   </head>
   <body>
     <!-- https://emmet.io/ -->
 
     <header>
+        <img src="/public/img/20230109/menu (1).svg" alt="icone de menu" class="menu-btn">
 
-      <head>
-        
-        
-        </head>
-      
 
+<h1 class="titre">Exposition Kalinka</h1>
+<nav id="mainNav" x-show="menuIsOpen">
+</nav>
+</header>
       
-<div>
-      <h1>Exposition Kalinka</h1>
-    </div>
       <nav id="mainNav" x-show="menuIsOpen">
         </nav>
     </header>
 
-     <!-- h2>lorem2^p>lorem -->
-     <br><h2 p class="texte_titre">Me contacter</h2><br> 
-     
-     
-     
-<div class="container">
-
-    <form action="/action_page.php">
-      <label for="fname">Nom & prénom</label>
-      <input type="text" id="fname" name="firstname" placeholder="Votre nom et prénom">
+    <div class="container">
+        <div class="row">
+                <h1 style="text-align:center">Nous contacter</h1>
+        </div>
+        <div class="row input-container">
+                <div class="balise contact">
+                    <p class="replacetext">Nom & prénom</p> 
+                    <input type="text" id="fname" name="firstname" placeholder="Votre nom et prénom">
+                    
+                </div>
+                <br>
+                <div class="balise contact">
+                    <p class="replacetext">Email</p> 
+                    <input id="emailAddress" type="email" name="email" placeholder="Votre email">
+                   
+                </div>
+                <br>
+                <div class="balise contact">
+                    <p class="replacetext">Objet</p> 
+                    <input type="text" id="sujet" name="sujet" placeholder="L'objet de votre message">
+                    
+                    
+                </div>
+                <br>
+                <div class="balise contact">
+                    <p class="replacetext"> Votre message</p> 
+                    <textarea id="subject" name="subject" placeholder="Votre message" style="height:200px"></textarea>
+                    
+                </div>
+                <br>
+                <div class="col-xs-12">
+                  <input type="submit" value="Envoyer">
+                </div>
+        </div>
+    </div>
+    <br>
+    <br>
+</div>
+<footer class="footer">
+  <div class="textblanc">
   
-      <label for="sujet">Sujet</label>
-      <input type="text" id="sujet" name="sujet" placeholder="L'objet de votre message">
+  <hr class="hr">
+  <h3>Mentions légales</h3>
+  <p class="texte_article">Projet réalisé dans le cadre d'un exercice pédagogique  au département MMI de l'IUT Nord Franche-comté</p>
+  <div>
   
-      <label for="emailAddress">Email</label>
-      <input id="emailAddress" type="email" name="email" placeholder="Votre email">
-  
-  
-      <label for="subject">Message</label>
-      <textarea id="subject" name="subject" placeholder="Votre message" style="height:200px"></textarea>
-  
-      <input type="submit" value="Envoyer">
-    </form>
+  <hr class="hr">
+  <h3>Nous contacter</h3>
   </div>
+  <div class="contact, textblanc"> Noah Ripert C1 
+    <p class="mail" a href="https://butmmi.thomasjeu.fr/#/">MMI Montbéliard</p>
+     <p class="mail" A HREF="mailto:ripertnoah@gmail.com">ripertnoah@gmail.com</p>
+   </div>
+   
+   <div class="insta">
+<a href="https://www.instagram.com/noah13s/"> <img src="/public/img/20230109/instagram 1.svg" alt="IconInstragram"></a></div>
+
+  
+   <br> <br>
+   <hr class="hr">
+   </footer>
+   </html>
+  
+
+      </li>
+    </ul>
+  
+</body>
+
+</html>

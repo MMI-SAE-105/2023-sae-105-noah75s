@@ -2,7 +2,7 @@
 @import url(./menu.css);
 @import url(./header.css);
 @import url(./caroussel.css);
-
+@import url(./footer.css);
 
 body{
     background-color: #6d0115;
@@ -24,4 +24,38 @@ img {
     overflow: clip;
     max-width: 100%;
     height:auto
+}
+
+p{
+    padding-top: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 14px;
+}
+
+.texte_titre{
+    padding-top: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.texte_titrebas{
+    padding-top: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: black;
+}
+
+.image{
+    width: 216px;
+    height: 148px;
+}
+
+#rectangle{
+    width:319px;
+    height:217px;
+    background:rgb(255, 255, 255);
+    margin: auto;
+    
+    
 }

@@ -175,3 +175,31 @@ p{
     padding: 5px;
     border-radius: 5px;
   }
+
+  .rectangleaccueilcons {
+    box-sizing: border-box;
+    background: #EEEEC5;
+    border: 0.5px solid #EEEEC5;
+    width: 300px;
+    height: auto;
+    position:absolute;
+    z-index:2;
+    left: 30px;
+    top: 290px;
+    padding: 5px;
+    border-radius: 5px;
+  }
+
+  .rectangleaccueil2cons {
+    box-sizing: border-box;
+    background: #EEEEC5;
+    border: 0.5px solid #EEEEC5;
+    width: 300px;
+    height: auto;
+    position:absolute;
+    z-index:2;
+    left: 30px;
+    top: 620px;
+    padding: 5px;
+    border-radius: 5px;
+  }

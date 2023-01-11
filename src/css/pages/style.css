@@ -81,7 +81,15 @@ p{
   }
 
 .imagearticle{
-    
+    width: 216px;
+    height: 148px;
+    margin: auto;
+}
+
+.imagearticletxt{
+    width: 216px;
+    height: 148px;
+    margin: auto;
 }
 
 .texte_titrebas{
